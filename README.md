@@ -14,6 +14,7 @@ There are 2 main ways to run this project: execute a program, and generate a cor
 ### Build the Program
 
 ```
+cd program
 cargo prove build
 ```
 
