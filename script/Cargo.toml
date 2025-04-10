@@ -1,16 +1,12 @@
 [package]
 version = "0.1.0"
-name = "fibonacci-script"
+name = "succinctactoe-script"
 edition = "2021"
-default-run = "fibonacci"
+default-run = "succinctactoe"
 
 [[bin]]
-name = "fibonacci"
+name = "succinctactoe"
 path = "src/bin/main.rs"
-
-[[bin]]
-name = "evm"
-path = "src/bin/evm.rs"
 
 [[bin]]
 name = "vkey"
@@ -24,7 +20,7 @@ clap = { version = "4.0", features = ["derive", "env"] }
 tracing = "0.1.40"
 hex = "0.4.3"
 alloy-sol-types = { workspace = true }
-fibonacci-lib = { path = "../lib" }
+succinctactoe-lib = { path = "../lib" }
 dotenv = "0.15.0"
 
 [build-dependencies]
