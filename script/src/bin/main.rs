@@ -64,7 +64,7 @@ fn main() {
     println!("Successfully verified proof!");
 
     // Save proof
-    let proof_path = "fibonacci_proof.bin";
+    let proof_path = "succinctactoe_proof.bin";
     proof.save(proof_path).expect("Failed to save proof");
     println!("Proof saved to: {}", proof_path);
 
